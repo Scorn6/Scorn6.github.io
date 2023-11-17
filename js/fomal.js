@@ -3190,10 +3190,10 @@ function changeBg(s) {
 // 设置背景属性
 function setBg(s) {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: ${s};
-    --darkmode-bg: ${s};
-    --mobileday-bg: ${s};
-    --mobilenight-bg: ${s};
+    --default-bg: url(https://images.wallpaperscraft.com/image/single/girl_grass_city_213102_1280x720.jpg);
+    --darkmode-bg: url(https://images.wallpaperscraft.com/image/single/girl_ears_maid_1087348_1280x720.jpg);
+    --mobileday-bg: url(https://images.wallpaperscraft.com/image/single/girl_cape_glow_1093140_1280x720.jpg);
+    --mobilenight-bg: url(https://images.wallpaperscraft.com/image/single/girl_smile_wall_1092234_1280x720.jpg);
   }`;
 }
 

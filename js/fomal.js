@@ -3174,10 +3174,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/dm14.webp);
-    --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
-    --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
-    --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
+    --default-bg: url(https://images.wallpaperscraft.com/image/single/girl_grass_city_213102_1280x720.jpg);
+    --darkmode-bg: url(https://images.wallpaperscraft.com/image/single/girl_ears_maid_1087348_1280x720.jpg);
+    --mobileday-bg: url(https://images.wallpaperscraft.com/image/single/girl_cape_glow_1093140_1280x720.jpg);
+    --mobilenight-bg: url(https://images.wallpaperscraft.com/image/single/girl_smile_wall_1092234_1280x720.jpg);
   }`;
 }
 // 切换背景主函数
@@ -3407,7 +3407,7 @@ function createWinbox() {
 <h3>1. 二次元</h3>
 <details class="folding-tag" cyan><summary> 查看二次元背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://images.wallpaperscraft.com/image/single/girl_grass_city_213102_1280x720.jpg)" class="imgbox" onclick="changeBg('url(https://images.wallpaperscraft.com/image/single/girl_grass_city_213102_1280x720.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://images.wallpaperscraft.com/image/single/girl_ears_maid_1087348_1280x720.jpg)" class="imgbox" onclick="changeBg('url(https://images.wallpaperscraft.com/image/single/girl_ears_maid_1087348_1280x720.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://images.wallpaperscraft.com/image/single/girl_cape_glow_1093140_1280x720.jpg)" class="imgbox" onclick="changeBg('url(https://images.wallpaperscraft.com/image/single/girl_cape_glow_1093140_1280x720.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://images.wallpaperscraft.com/image/single/girl_smile_wall_1092234_1280x720.jpg)" class="imgbox" onclick="changeBg('url(https://images.wallpaperscraft.com/image/single/girl_smile_wall_1092234_1280x720.jpg)')"></a></div>
               </div>
             </details>
 
